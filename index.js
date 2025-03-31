@@ -71,7 +71,7 @@ async function main() {
 
   const abi = await fetchAbi(contract);
   const entrypoints = parseAbi(abi);
-  console.log(entrypoints);
+  console.log(JSON.stringify(entrypoints, null, 4));
 }
 
 main();

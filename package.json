@@ -1,0 +1,21 @@
+{
+  "name": "ethereum-abi-json",
+  "version": "1.0.0",
+  "description": "Progammatically load the JSON ABI for any contract verified on Etherscan, using Etherscan API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Ethereum",
+    "ABI",
+    "JSON"
+  ],
+  "author": "drew.taylor@philabs.xyz",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "node-fetch": "^3.3.2"
+  }
+}
